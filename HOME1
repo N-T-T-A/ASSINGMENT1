@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="home_style.css" media="screen" />
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2361/2361685.png">
+        <title>Home Page</title>
+        <style>
+                body{
+                    color:#E3B7A0;
+                    background-color:#FFEDDB;
+                    }
+                h1{
+                    font-family: 'Beau Rivage', cursive;
+                    text-align: center;
+                    color: #572e18;
+                    }
+                h2{
+                    font-family: 'Beau Rivage', cursive;
+                    text-align: center;
+                    color:#572e18;
+                }
+                .parent {
+                    margin: 1rem;
+                    padding: 2rem 2rem;
+                    text-align: center;
+                }
+                .child {
+                    display: inline-block;
+                    border: 2px solid black;
+                    padding: 1rem 1rem;
+                    vertical-align: middle;
+                    border-radius: 25px;
+                    width: 300px;
+                }
+                .ring_image::before{
+                    content:url("https://res.cloudinary.com/mejuri-com/image/upload/c_scale,f_auto,q_60,w_640/v1628705724/homepage/Categories%20/Homepage_Categories_Rings_Fall2021");
+                }
+                a:link{
+                    color: #572e18;
+                    background-color: transparent;
+                    text-decoration: none;
+                }
+                a.rings_link:hover{
+                    color: #572e18;
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
+                a:link{
+                    color: #572e18;
+                    background-color: transparent;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: #572e18;
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
+
+        </style>
+    </head>
+    <body>
+        <h1><b>Erekshe Brand</b></h1>
+        <div class='parent'>
+            <div class='child'>
+                <a href="rings.html" target="_blank">
+                <h2>Rings</h2>
+                </a>
+                <a href="rings.html" target="_blank">
+                <img id="ring_image" src="https://res.cloudinary.com/mejuri-com/image/upload/c_scale,f_auto,q_60,w_640/v1628705724/homepage/Categories%20/Homepage_Categories_Rings_Fall2021" width="200" height="200" alt="rings">
+                </a>
+            </div>
+            <div class='child'>
+                <a href="bracelets.html" target="_blank">
+                <h2>Bracelets</h2>
+                </a>
+                <a href="bracelets.html" target="_blank">
+                <img id="bracelet_image" src="https://res.cloudinary.com/mejuri-com/image/upload/c_scale,f_auto,q_60,w_640/v1628705724/homepage/Categories%20/Homepage_Categories_Bracelets_Fall2021" width="200" height="200" alt="rings">
+                </a>
+            </div>
+          </div>
+    </body>
+</html>
+
+
